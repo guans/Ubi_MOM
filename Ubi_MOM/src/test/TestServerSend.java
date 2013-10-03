@@ -21,7 +21,7 @@ public class TestServerSend {
 		// create a client to send messages
 		// Client sender=new Client("192.168.1.135",3009,"sender");
 
-		MOMClient sender = new MOMClient("192.168.137.233", 3009,
+		MOMClient sender = new MOMClient("192.168.1.104", 3009,
 				Setting.SERVER_ENGINE_ID);
 		// then connect it to the dispatcher
 		sender.connect();
