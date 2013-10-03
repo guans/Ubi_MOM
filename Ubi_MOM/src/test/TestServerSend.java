@@ -279,28 +279,28 @@ public class TestServerSend {
 
 	}
 
-	// 处理定位消息
-	public static Message DoLocateWeb(double x, double y, double z, String id) /* web端 */
+	// 处理单个定位消息
+	public static Message DoLocateSingle(double x, double y, double z) /* web端 */
 	throws Exception {
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
 		Message t = new Message();
 		t.setRecipient(Setting.WEB_ENGINE_ID);
 		t.setSender(Setting.SERVER_ENGINE_ID);
 		// 消息头
-		t.setHeader("length", "40");
+		t.setHeader("length", "24");
 		t.setHeader("timeid", df.format(new Date()));
-		t.setHeader("type", "locateweb");
+		t.setHeader("type", "locatsingle");
 		t.setHeader("from", "server");
 		t.setHeader("to", "web");
 
 		// 消息
-		byte[] content = new byte[40];
+		byte[] content = new byte[24];
 		int length = doubleToByte(x, y, z).length;
 		byte[] byt = doubleToByte(x, y, z);
 		for (int i = 0; i < length; i++) {
 			content[i] = byt[i];
 		}
-		id.getBytes(0, id.length(), content, 24);
+		
 		t.setContentAsBytes(content);
 
 		return t;

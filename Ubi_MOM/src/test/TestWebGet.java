@@ -229,8 +229,8 @@ public class TestWebGet {
 
 	// ------------------------------------------------------------------------------------------
 
-	// 获得服务器定位信息
-	public static void DoLocateWeb(Message m) throws Exception {
+	// 获得服务器单个定位信息
+	public static void DoLocateSingle(Message m) throws Exception {
 
 		byte[] newByte1 = new byte[24];
 		System.arraycopy(m.getContentAsBytes(), 0, newByte1, 0, 24);
@@ -239,10 +239,6 @@ public class TestWebGet {
 		System.out.println((x[1]));
 		System.out.println((x[2]));
 
-		byte[] newByte2 = new byte[16];
-		System.arraycopy(m.getContentAsBytes(), 24, newByte2, 0, 16);
-		String id = new String(newByte2).trim();
-		System.out.println("id:" + id);
 
 	}
 

@@ -221,7 +221,11 @@ public class TestServerGet {
 	}
 
 	// 处理web端定位请求消息
-	public static void DoLocateWeb(Message m) throws Exception { /* web端 */
+	public static void DoLocateSingle(Message m) throws Exception { /* web端 */
+		byte[] newByte1 = new byte[32];
+		System.arraycopy(m.getContentAsBytes(), 0, newByte1, 0, 32);
+		String mac = new String(newByte1).trim();
+		System.out.println("人员MAC:" + mac);
 
 	}
 

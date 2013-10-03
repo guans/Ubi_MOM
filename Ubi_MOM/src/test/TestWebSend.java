@@ -33,7 +33,7 @@ public class TestWebSend {
 
 	
 	//定位请求
-	public static  Message LocateWeb() throws Exception{  
+	public static  Message LocateSingle(String mac) throws Exception{  
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
 		Message t=new Message();
 		t.setRecipient(Setting.SERVER_ENGINE_ID);
@@ -41,11 +41,16 @@ public class TestWebSend {
 		//消息头
 	    t.setHeader("length", "16");  
 	    t.setHeader("timeid", df.format(new Date()));
-	    t.setHeader("type", "locatweb");
+	    t.setHeader("type", "locatsingle");
 	    t.setHeader("from", "web");
 	    t.setHeader("to", "server");
-	    //消息
-	    byte []content=new byte[16];
+	 
+		    //消息
+		    byte []content=new byte[32];
+		    mac.getBytes(0, mac.length(), content, 0);
+		    t.setContentAsBytes(content);
+		    
+
 	    
 		  return t;
 	}
