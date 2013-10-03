@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/ubimessage/dispatcher
+END
+MessageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/ubimessage/dispatcher/MessageManager.java
+END
+MessageParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/ubimessage/dispatcher/MessageParser.java
+END
+Dispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/ubimessage/dispatcher/Dispatcher.java
+END
+MessageQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/ubimessage/dispatcher/MessageQueue.java
+END
+ClientHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/ubimessage/dispatcher/ClientHandler.java
+END

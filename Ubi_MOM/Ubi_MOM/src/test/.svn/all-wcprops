@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test
+END
+Ex02Sender.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/Ex02Sender.java
+END
+MacAndId.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/MacAndId.java
+END
+TestServerSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/TestServerSend.java
+END
+Ex02Receiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/Ex02Receiver.java
+END
+TestUtilityGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/TestUtilityGet.java
+END
+Place.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/Place.java
+END
+Ex02Dispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/Ex02Dispatcher.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/Node.java
+END
+TestServerGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/TestServerGet.java
+END
+TestWebSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/TestWebSend.java
+END
+Setting.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/Setting.java
+END
+TestUtilitySend.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/TestUtilitySend.java
+END
+TestWebGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/test/!svn/ver/2/trunk/Ubi_MOM/Ubi_MOM/src/test/TestWebGet.java
+END
