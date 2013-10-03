@@ -151,7 +151,7 @@ public class TestWebSend {
 				}
 				
 				//房间内所有人员查询请求
-				public static  Message LocateAll(String room) throws Exception{  
+				public static  Message LocateAll() throws Exception{  
 					SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
 					Message t=new Message();
 					t.setRecipient(Setting.SERVER_ENGINE_ID);
@@ -164,7 +164,7 @@ public class TestWebSend {
 				    t.setHeader("to", "server");
 				    //消息
 				    byte []content=new byte[16];
-				    room.getBytes(0, room.length(), content, 0);
+				 
 				    t.setContentAsBytes(content);
 				    
 					  return t;
