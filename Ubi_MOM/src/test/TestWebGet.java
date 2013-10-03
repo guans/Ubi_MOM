@@ -411,7 +411,7 @@ public class TestWebGet {
 						DoSearchAll(m);
 					}
 					if (m.getHeader("type").equals("locateweb")) {
-						DoLocateWeb(m);
+						DoLocateSingle(m);
 					}
 					if (m.getHeader("type").equals("getmacid")) {
 						DoGetMacid(m);

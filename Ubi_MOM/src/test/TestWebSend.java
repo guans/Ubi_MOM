@@ -22,7 +22,7 @@ public class TestWebSend {
 		// now send multiple messages to receiver with different contents
 		Message m;
 		Setting.MAC = "abc123";
-		sender.sendMessage(LocateWeb());
+		sender.sendMessage(LocateSingle("abc123"));
 		sender.sendMessage(SearchSingle("2364"));
 		sender.sendMessage(SearchAll("87539478"));
 		sender.sendMessage(SendFireNode(4,5,6));
@@ -49,8 +49,6 @@ public class TestWebSend {
 		    byte []content=new byte[32];
 		    mac.getBytes(0, mac.length(), content, 0);
 		    t.setContentAsBytes(content);
-		    
-
 	    
 		  return t;
 	}
