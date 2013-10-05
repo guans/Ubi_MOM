@@ -22,7 +22,7 @@ public class TestUtilitySend {
 		// create a client to send messages
 		// Client sender=new Client("192.168.1.135",3009,"sender");
 		Setting.MAC = "abc123";
-		MOMClient sender = new MOMClient("192.168.1.101", 3009, Setting.MAC);
+		MOMClient sender = new MOMClient("192.168.1.104", 3009, Setting.MAC);
 		// then connect it to the dispatcher
 		sender.connect();
 		Thread.sleep(3000);
